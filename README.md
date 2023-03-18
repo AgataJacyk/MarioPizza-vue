@@ -1,29 +1,28 @@
-# mariospizza
+<h1>Welcome adventurer!</h1>
+<img src="public\images\Mario.gif">
+<p>My name's Agata and i'm the author of this project. I did it for fun and to practise my vue.js skills so far :)
+I hope you enjoy it. 
+If you have some tips for me about what i should change to make it better you can send my an e-mail: <a href="mailto:agatajacyk.webdeveloper@gmail.com">agatajacyk.webdeveloper@gmail.com</a>
+Let me know what you think about my work! </p>
 
-This template should help get you started developing with Vue 3 in Vite.
+<h3>Please do not copy my work without credentials.</h3>
 
-## Recommended IDE Setup
+Let me know if you want hire me for similar projects. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+<h2>How to open it?</h2>
+<p>Download the code on your device and open it in your favourite editor.
+2. Open terminal. Type : 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
+npm i
+```
+3. After downloading is finished type: 
 
-### Compile and Hot-Reload for Development
-
-```sh
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
+Done! Click at the localhost link and voila! :) </p>
 
-```sh
-npm run build
-```
+<img src="public\images\mariotrip.gif">
