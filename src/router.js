@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import AboutUsPage from './components/AboutUsPage.vue'
-import ContactPage from './components/ContactPage.vue'
-import HomePage from './components/HomePage.vue'
-import MenuPage from './components/MenuPage.vue'
+import AboutUsPage from './components/pages/AboutUsPage.vue'
+import ContactPage from './components/pages/ContactPage.vue'
+import HomePage from './components/pages/HomePage.vue'
+import MenuPage from './components/pages/MenuPage.vue'
 import NotFound from './components/pages/NotFound.vue'
 
 const router = createRouter({

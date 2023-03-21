@@ -88,4 +88,33 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.dark button {
+  background-color: #37306B;
+    box-shadow:   -1px 0 0 0 #231d4a,
+  1px 0 0 0 #231d4a,
+  0 -1px 0 0 #231d4a,
+  0 1px 0 0 #231d4a,
+  inset -4px 2px 1px 1px #383261,
+  inset -4px -2px 1px 1px #362d76,
+  inset 4px 0px 1px 1px #362d76; 
+}
+
+.dark button:hover {
+  background-color: #231d4a;
+}
+
+.dark button:active {
+  top: 5px;
+  box-shadow: -4px 2px 1px 1px #231d4a, -4px -2px 1px 1px #362d76,
+    4px 0px 1px 1px #362d76;
+}
+
+.dark button::before {
+  background: #362d76;
+}
+
+.dark button::after {
+  background: #362d76;
+}
 </style>

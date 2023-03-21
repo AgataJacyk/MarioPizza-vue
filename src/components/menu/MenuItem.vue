@@ -29,7 +29,7 @@ export default ({
       required: true,
     },
     cost: {
-      type: String,
+      type: Number,
       required: true
     },
 },

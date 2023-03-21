@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
-  background-image: url("../images/background.png");
+  background-image: url('/images/background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,6 +39,7 @@ a {
   background-repeat: no-repeat;
   position: relative;
   transition: .4s ease-in, background-position 0s;
+  padding: 5px;
 }
 a:before {
   content:"";
@@ -55,6 +56,35 @@ a:hover {
   --p: 100%;
    /* it should be .6em (1.2em/2) but we use a litte bigger to avoid gaps */
   --s: calc(50% + .61em);
+}
+
+.cart {
+  position: fixed;
+  right: 10rem;
+  top: 20vh;
+  background-color: #37306B;
+  box-shadow:   -5px 0 0 0 #048192,
+  5px 0 0 0 #048192,
+  0 -5px 0 0 #048192,
+  0 5px 0 0 #048192,
+  inset -4px 2px 1px 1px #7db3ba,
+  inset -4px -2px 1px 1px #adf0f9,
+  inset 4px 0px 1px 1px  #adf0f9; 
+}
+
+.dark-mode-btn {
+  position: fixed;
+  left: 10rem;
+  background-color: #06a6bc;
+  top: 20vh;
+  box-shadow:   -5px 0 0 0 #048192,
+  5px 0 0 0 #048192,
+  0 -5px 0 0 #048192,
+  0 5px 0 0 #048192,
+  inset -4px 2px 1px 1px #7db3ba,
+  inset -4px -2px 1px 1px #adf0f9,
+  inset 4px 0px 1px 1px  #adf0f9; 
+  padding: 5px;
 }
 
 div .box { 
