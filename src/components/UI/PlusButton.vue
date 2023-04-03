@@ -1,6 +1,6 @@
 <template>
   <div class="div2">
-    <button><font-awesome-icon icon="fa-solid fa-plus" /></button>
+    <button class="plus"><font-awesome-icon icon="fa-solid fa-plus" /></button>
   </div>
 </template>
 

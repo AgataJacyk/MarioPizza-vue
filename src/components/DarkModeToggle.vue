@@ -46,9 +46,6 @@ const toggleDark = useToggle(isDark);
 }
 
 .dark .cart {
-  position: fixed;
-  right: 10rem;
-  top: 20vh;
   background-color: #37306B;
   box-shadow:   -4px 0 0 0 #231d4a,
   4px 0 0 0 #231d4a,
@@ -108,6 +105,16 @@ const toggleDark = useToggle(isDark);
 
 .dark-mode-icon {
     width: 2rem;
+}
+.dark .plus {
+background-color: #D27685;
+  box-shadow: -3px 0 0 0 #9E4784, 3px 0 0 0 #9E4784, 0 -3px 0 0 #9E4784,
+    0 3px 0 0 #9E4784, inset -4px 2px 1px 1px #E49393,
+    inset -4px -2px 1px 1px #FFACAC;
+} 
+
+.dark .plus:hover {
+  background-color: #9E4784;
 }
 
 </style>
